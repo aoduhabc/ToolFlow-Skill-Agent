@@ -156,6 +156,7 @@ func (v *viewTool) Run(ctx context.Context, call ToolCall) (ToolResponse, error)
 	if err != nil {
 		return ToolResponse{}, fmt.Errorf("error reading file: %w", err)
 	}
+	recordFileRead(fileAbs)
 
 	out := "<file>\n"
 	out += addLineNumbers(content, params.Offset+1)

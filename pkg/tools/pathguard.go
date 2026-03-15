@@ -34,4 +34,3 @@ func isWithinRoot(rootAbs string, targetAbs string) bool {
 	}
 	return false
 }
-

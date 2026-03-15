@@ -85,6 +85,8 @@ func (w *writeTool) Run(ctx context.Context, call ToolCall) (ToolResponse, error
 	if err := os.WriteFile(absPath, []byte(params.Content), 0o644); err != nil {
 		return ToolResponse{}, fmt.Errorf("error writing file: %w", err)
 	}
+	recordFileWrite(absPath)
+	recordFileRead(absPath)
 
 	for _, client := range w.lsps {
 		if client.IsFileOpen(absPath) {
