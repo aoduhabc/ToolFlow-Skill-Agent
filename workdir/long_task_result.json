@@ -1,0 +1,45 @@
+{
+  "task_start_time": "2026-03-18 08:43:44",
+  "total_duration_seconds": 12,
+  "hash_iterations": 1400000,
+  "final_hash": "12d4792c6087851faabc663151824fc88b1460f31aa9ffd07d5b5c6b9bd46c0d",
+  "task_end_time": "2026-03-18 08:44:00",
+  "progress_updates": [
+    {
+      "time_elapsed": 0.25,
+      "progress_percent": 2.12,
+      "iterations_completed": 200000
+    },
+    {
+      "time_elapsed": 2.51,
+      "progress_percent": 20.88,
+      "iterations_completed": 400000
+    },
+    {
+      "time_elapsed": 4.78,
+      "progress_percent": 39.83,
+      "iterations_completed": 600000
+    },
+    {
+      "time_elapsed": 7.1,
+      "progress_percent": 59.2,
+      "iterations_completed": 800000
+    },
+    {
+      "time_elapsed": 9.36,
+      "progress_percent": 77.96,
+      "iterations_completed": 1000000
+    },
+    {
+      "time_elapsed": 11.6,
+      "progress_percent": 96.69,
+      "iterations_completed": 1200000
+    },
+    {
+      "time_elapsed": 13.9,
+      "progress_percent": 115.87,
+      "iterations_completed": 1400000
+    }
+  ],
+  "total_time_seconds": 15.91
+}

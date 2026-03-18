@@ -1,0 +1,161 @@
+{
+  "aggregate": {
+    "ppo/advantage_mean": {
+      "count": 1.0,
+      "max": 0.3510847476661934,
+      "mean": 0.3510847476661934,
+      "min": 0.3510847476661934,
+      "std": 0.0
+    },
+    "ppo/approx_kl": {
+      "count": 1.0,
+      "max": 86.61206901061277,
+      "mean": 86.61206901061277,
+      "min": 86.61206901061277,
+      "std": 0.0
+    },
+    "ppo/clip_frac": {
+      "count": 1.0,
+      "max": 5.886363636363637,
+      "mean": 5.886363636363637,
+      "min": 5.886363636363637,
+      "std": 0.0
+    },
+    "ppo/entropy": {
+      "count": 1.0,
+      "max": 0.13297331636393064,
+      "mean": 0.13297331636393064,
+      "min": 0.13297331636393064,
+      "std": 0.0
+    },
+    "ppo/explained_variance": {
+      "count": 1.0,
+      "max": -0.5767806631291532,
+      "mean": -0.5767806631291532,
+      "min": -0.5767806631291532,
+      "std": 0.0
+    },
+    "ppo/n_updates": {
+      "count": 1.0,
+      "max": 88.0,
+      "mean": 88.0,
+      "min": 88.0,
+      "std": 0.0
+    },
+    "ppo/policy_loss": {
+      "count": 1.0,
+      "max": 1.5455085392088768,
+      "mean": 1.5455085392088768,
+      "min": 1.5455085392088768,
+      "std": 0.0
+    },
+    "ppo/return_mean": {
+      "count": 1.0,
+      "max": 0.25922156656541906,
+      "mean": 0.25922156656541906,
+      "min": 0.25922156656541906,
+      "std": 0.0
+    },
+    "ppo/value_loss": {
+      "count": 1.0,
+      "max": 0.8152537652636883,
+      "mean": 0.8152537652636883,
+      "min": 0.8152537652636883,
+      "std": 0.0
+    },
+    "ppo/value_mean": {
+      "count": 1.0,
+      "max": -0.09186318110077436,
+      "mean": -0.09186318110077436,
+      "min": -0.09186318110077436,
+      "std": 0.0
+    },
+    "process_reward_mean": {
+      "count": 1.0,
+      "max": 0.060818420931384704,
+      "mean": 0.060818420931384704,
+      "min": 0.060818420931384704,
+      "std": 0.0
+    },
+    "qa_performance": {
+      "count": 1.0,
+      "max": 0.6,
+      "mean": 0.6,
+      "min": 0.6,
+      "std": 0.0
+    },
+    "raw_performance": {
+      "count": 1.0,
+      "max": 0.6,
+      "mean": 0.6,
+      "min": 0.6,
+      "std": 0.0
+    }
+  },
+  "epochs": [
+    {
+      "inner_epoch": 1,
+      "outer_epoch": 1,
+      "ppo": {
+        "advantage_mean": 0.3510847476661934,
+        "approx_kl": 86.61206901061277,
+        "clip_frac": 5.886363636363637,
+        "entropy": 0.13297331636393064,
+        "explained_variance": -0.5767806631291532,
+        "n_updates": 88,
+        "policy_loss": 1.5455085392088768,
+        "process_reward_mean": 0.060818420931384704,
+        "return_mean": 0.25922156656541906,
+        "value_loss": 0.8152537652636883,
+        "value_mean": -0.09186318110077436
+      },
+      "qa_performance": 0.6,
+      "raw_performance": 0.6,
+      "reward": 0.6,
+      "status": {
+        "error": 0,
+        "max_steps_reached": 0,
+        "success": 1
+      }
+    }
+  ],
+  "last_wandb_log": {
+    "inner_epoch": 1,
+    "outer_epoch": 1,
+    "ppo/advantage_mean": 0.3510847476661934,
+    "ppo/approx_kl": 86.61206901061277,
+    "ppo/clip_frac": 5.886363636363637,
+    "ppo/entropy": 0.13297331636393064,
+    "ppo/explained_variance": -0.5767806631291532,
+    "ppo/n_updates": 88,
+    "ppo/policy_loss": 1.5455085392088768,
+    "ppo/return_mean": 0.25922156656541906,
+    "ppo/value_loss": 0.8152537652636883,
+    "ppo/value_mean": -0.09186318110077436,
+    "process_reward_mean": 0.060818420931384704,
+    "qa_performance": 0.6,
+    "raw_performance": 0.6
+  },
+  "success_rate": 1.0,
+  "success_runs": 1,
+  "total_runs": 1,
+  "wandb_logs": [
+    {
+      "inner_epoch": 1,
+      "outer_epoch": 1,
+      "ppo/advantage_mean": 0.3510847476661934,
+      "ppo/approx_kl": 86.61206901061277,
+      "ppo/clip_frac": 5.886363636363637,
+      "ppo/entropy": 0.13297331636393064,
+      "ppo/explained_variance": -0.5767806631291532,
+      "ppo/n_updates": 88,
+      "ppo/policy_loss": 1.5455085392088768,
+      "ppo/return_mean": 0.25922156656541906,
+      "ppo/value_loss": 0.8152537652636883,
+      "ppo/value_mean": -0.09186318110077436,
+      "process_reward_mean": 0.060818420931384704,
+      "qa_performance": 0.6,
+      "raw_performance": 0.6
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "aggregate": {
+    "ppo/advantage_mean": {
+      "count": 1.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "min": 0.0,
+      "std": 0.0
+    },
+    "ppo/approx_kl": {
+      "count": 1.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "min": 0.0,
+      "std": 0.0
+    },
+    "ppo/clip_frac": {
+      "count": 1.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "min": 0.0,
+      "std": 0.0
+    },
+    "ppo/entropy": {
+      "count": 1.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "min": 0.0,
+      "std": 0.0
+    },
+    "ppo/explained_variance": {
+      "count": 1.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "min": 0.0,
+      "std": 0.0
+    },
+    "ppo/n_updates": {
+      "count": 1.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "min": 0.0,
+      "std": 0.0
+    },
+    "ppo/policy_loss": {
+      "count": 1.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "min": 0.0,
+      "std": 0.0
+    },
+    "ppo/return_mean": {
+      "count": 1.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "min": 0.0,
+      "std": 0.0
+    },
+    "ppo/value_loss": {
+      "count": 1.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "min": 0.0,
+      "std": 0.0
+    },
+    "ppo/value_mean": {
+      "count": 1.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "min": 0.0,
+      "std": 0.0
+    },
+    "process_reward_mean": {
+      "count": 1.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "min": 0.0,
+      "std": 0.0
+    },
+    "qa_performance": {
+      "count": 1.0,
+      "max": 0.6,
+      "mean": 0.6,
+      "min": 0.6,
+      "std": 0.0
+    },
+    "raw_performance": {
+      "count": 1.0,
+      "max": 0.6,
+      "mean": 0.6,
+      "min": 0.6,
+      "std": 0.0
+    }
+  },
+  "epochs": [
+    {
+      "inner_epoch": 1,
+      "outer_epoch": 1,
+      "ppo": {
+        "advantage_mean": 0.0,
+        "approx_kl": 0.0,
+        "clip_frac": 0.0,
+        "entropy": 0.0,
+        "explained_variance": 0.0,
+        "n_updates": 0,
+        "policy_loss": 0.0,
+        "process_reward_mean": 0.0,
+        "return_mean": 0.0,
+        "value_loss": 0.0,
+        "value_mean": 0.0
+      },
+      "qa_performance": 0.6,
+      "raw_performance": 0.6,
+      "reward": 0.6,
+      "status": {
+        "error": 0,
+        "max_steps_reached": 0,
+        "success": 1
+      }
+    }
+  ],
+  "last_wandb_log": {
+    "inner_epoch": 1,
+    "outer_epoch": 1,
+    "ppo/advantage_mean": 0.0,
+    "ppo/approx_kl": 0.0,
+    "ppo/clip_frac": 0.0,
+    "ppo/entropy": 0.0,
+    "ppo/explained_variance": 0.0,
+    "ppo/n_updates": 0,
+    "ppo/policy_loss": 0.0,
+    "ppo/return_mean": 0.0,
+    "ppo/value_loss": 0.0,
+    "ppo/value_mean": 0.0,
+    "process_reward_mean": 0.0,
+    "qa_performance": 0.6,
+    "raw_performance": 0.6
+  },
+  "success_rate": 1.0,
+  "success_runs": 1,
+  "total_runs": 1,
+  "wandb_logs": [
+    {
+      "inner_epoch": 1,
+      "outer_epoch": 1,
+      "ppo/advantage_mean": 0.0,
+      "ppo/approx_kl": 0.0,
+      "ppo/clip_frac": 0.0,
+      "ppo/entropy": 0.0,
+      "ppo/explained_variance": 0.0,
+      "ppo/n_updates": 0,
+      "ppo/policy_loss": 0.0,
+      "ppo/return_mean": 0.0,
+      "ppo/value_loss": 0.0,
+      "ppo/value_mean": 0.0,
+      "process_reward_mean": 0.0,
+      "qa_performance": 0.6,
+      "raw_performance": 0.6
+    }
+  ]
+}
